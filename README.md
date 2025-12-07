@@ -31,20 +31,6 @@
 npm install
 ```
 
-## Конфигурация
-Создайте `.env` в `server/` или корне:
-```
-FACEIT_API_KEY=your_main_key
-# или массив для ротации:
-FACEIT_API_KEYS=["key1","key2","key3"]
-JWT_SECRET=your_jwt_secret
-PORT=3000
-DB_PATH=server/data.db
-FACEIT_API_URL=https://open.faceit.com/data/v4
-FACEIT_GAME=cs2
-```
-Dev-прокси фронта (`proxy.conf.json`) указывает на `http://127.0.0.1:3000/api`.
-
 ## Запуск (dev)
 Сервер:
 ```bash
