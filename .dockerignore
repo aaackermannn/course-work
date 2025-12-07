@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+dist
+.git
+.github
+.gitignore
+.env
+server/data.db
+firebase.json
+.firebaserc
+firestore.rules
+firestore.indexes.json
+functions
+

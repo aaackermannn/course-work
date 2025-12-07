@@ -1,0 +1,10 @@
+# Игнорируем файлы для ускорения Nx кэширования
+node_modules/
+dist/
+coverage/
+.angular/
+.git/
+.env*
+*.log
+.DS_Store
+Thumbs.db

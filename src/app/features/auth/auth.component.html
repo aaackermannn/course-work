@@ -1,0 +1,20 @@
+<section>
+  <h2>Авторизация</h2>
+  <div class="auth-form">
+    <label>
+      Email
+      <input #email type="email" placeholder="email@example.com" />
+    </label>
+    <label>
+      Пароль
+      <input #password type="password" placeholder="Пароль" />
+    </label>
+    <div class="actions">
+      <button type="button" (click)="login(email.value, password.value)">
+        Войти
+      </button>
+      <button type="button" (click)="logout()">Выйти</button>
+    </div>
+    <div *ngIf="userEmail as u">Вошли как: {{ u }}</div>
+  </div>
+</section>
